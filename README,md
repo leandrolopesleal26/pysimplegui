@@ -1,3 +1,4 @@
 Inicio
 
-Este projeto consiste em...
+Comando para gerar o executavel
+pyinstaller --onefile --noconsole --icon=cep.ico busca_cep.py

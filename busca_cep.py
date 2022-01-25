@@ -27,7 +27,7 @@ janela1 = busca_cep()
 while True:
     window, event, values = sg.read_all_windows()
     
-    if window == janela1 and event == sg.WIN_CLOSED:
+    if window == janela1 and event == sg.WIN_CLOSED or window == janela1 and event == "Cancel":
         break
 
     if window == janela1 and event == "Submit": 
